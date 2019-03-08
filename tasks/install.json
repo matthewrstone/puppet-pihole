@@ -1,0 +1,19 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "A short description of this task",
+  "parameters": {
+    "primary_dns": {
+      "type": "String",
+      "description": "The primary DNS server."
+    },
+    "secondary_dns": {
+      "type": "String",
+      "description": "The secondary DNS server."
+    },
+    "ip_address": {
+      "type": "String",
+      "description": "The IP address of the pihole server"
+    }
+  }
+}

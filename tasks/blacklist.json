@@ -1,0 +1,16 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Blacklist domain by regex.",
+  "parameters": {
+    "regex": {
+      "type": "String",
+      "description": "space separated list of domains / sites to blacklist"
+    },
+    "delete": {
+      "type": "Boolean",
+      "description": "Remove domains/sites from blacklist.",
+      "optional": true
+    }
+  }
+}
